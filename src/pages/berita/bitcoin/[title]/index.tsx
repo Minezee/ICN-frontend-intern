@@ -39,7 +39,7 @@ export default function ArticlePage({
                         <ContentLayout>
                             <div className='flex flex-col lg:flex-row lg:my-10 pl-0 2xl:pl-[72px]'>
                                 <div className='w-full lg:w-3/4'>
-                                    <div className='bg-white border py-6 md:py-0 px-4 my-2 md:my-6 lg:border-l-0 lg:border-t-0 lg:border-b-0 border-gray-200 w-full lg:pr-8'>
+                                    <div className='bg-white border py-6 md:py-0 px-4 my-2 md:my-6 lg:my-0 lg:border-l-0 lg:border-t-0 lg:border-b-0 border-gray-200 w-full lg:pr-8'>
                                         <JumbotronMobile />
                                         <Article />
                                         <ArticleTags />

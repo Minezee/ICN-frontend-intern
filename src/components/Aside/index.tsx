@@ -8,7 +8,7 @@ export default function Aside({
     relatedData: RelatedResponse
 }) {
     return (
-        <aside className='flex-1 mt-5 lg:mt-0 lg:ml-6'>
+        <aside className='flex-1 mt-5 lg:mt-0 lg:ml-6 pb-10'>
             <div className='bg-blue-50 p-6 rounded-lg'>
                 <h4 className='font-bold text-base'>This is A Heading Example Of the Leads Sticky</h4>
                 <p className='text-sm 2xl:text-base font-medium leading-5 text-gray-400 mt-1 mb-4'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
