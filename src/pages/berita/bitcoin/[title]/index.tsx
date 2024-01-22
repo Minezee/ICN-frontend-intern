@@ -1,14 +1,7 @@
 'use client'
 import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link';
 import ContentLayout from '@/layout/ContentLayout';
 import Aside from '@/components/Aside';
-import { RiDoubleQuotesL } from 'react-icons/ri';
-import RecommendArticle from '@/components/RecommendArticle';
-import Table from '@/components/Table';
-import { FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import { IoMdMail } from 'react-icons/io';
 import JumbotronDesktop from '@/components/Jumbotron/JumbotronDesktop';
 import JumbotronMobile from '@/components/Jumbotron/JumbotronMobile';
 import { RelatedResponse } from '@/types/response/RelatedResponse';
